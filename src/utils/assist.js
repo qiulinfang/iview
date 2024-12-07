@@ -52,7 +52,7 @@ export function getScrollBarSize (fresh) {
         cached = widthContained - widthScroll;
     }
     return cached;
-}
+} 
 
 // watch DOM change
 export const MutationObserver = isServer ? false : window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver || false;
